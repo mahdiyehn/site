@@ -20,7 +20,7 @@ const Brands = () => {
         <div className="mt-8 grid grid-cols-2 place-items-center gap-8">
             {
                 brands.map((brand, index) => <div key={index} className="shadow-xl shadow-slate-400 w-full h-full"> 
-                    <img src={brand.img} className='object-cover w-full h-full' />
+                    <img src={brand.img} className='object-cover w-full h-full rounded-md' />
                 </div>)
             }
         </div>
