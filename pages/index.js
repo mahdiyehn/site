@@ -5,6 +5,7 @@ import { Nav } from 'Shared'
 import {
   Hero,
   Stats,
+  Brands, 
 } from 'Index'
 
 export default function Home() {
@@ -13,6 +14,8 @@ export default function Home() {
     <Nav />
     <Hero />
     <Stats />
+    <Brands />
+
   </div>
 
 }
