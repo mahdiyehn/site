@@ -6,6 +6,7 @@ import {
   Hero,
   Stats,
   Brands, 
+  Cta,
 } from 'Index'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <Hero />
     <Stats />
     <Brands />
+    <Cta />
 
   </div>
 
